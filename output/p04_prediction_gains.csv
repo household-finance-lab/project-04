@@ -1,0 +1,19 @@
+cohort,model,metric,mean_difference,ci_low,ci_high,n_folds,folds_improved
+All adults,Linear,weighted_r2,0.0283327810,0.0196307985,0.0370347635,25,25
+All adults,Linear,weighted_rmse,-0.2738253113,-0.3613041745,-0.1863464480,25,25
+All adults,Linear,weighted_mae,-0.2509270953,-0.3230246014,-0.1788295892,25,25
+All adults,Gradient boosting,weighted_r2,0.0262172642,0.0172011323,0.0352333960,25,25
+All adults,Gradient boosting,weighted_rmse,-0.2574908025,-0.3493977754,-0.1655838296,25,25
+All adults,Gradient boosting,weighted_mae,-0.2244886181,-0.3096083927,-0.1393688435,25,25
+Age 18–61,Linear,weighted_r2,0.0273717392,0.0144215727,0.0403219058,25,25
+Age 18–61,Linear,weighted_rmse,-0.2472131137,-0.3642710221,-0.1301552053,25,25
+Age 18–61,Linear,weighted_mae,-0.2283961171,-0.3291742537,-0.1276179804,25,25
+Age 18–61,Gradient boosting,weighted_r2,0.0299402574,0.0195913629,0.0402891518,25,25
+Age 18–61,Gradient boosting,weighted_rmse,-0.2740856964,-0.3730534521,-0.1751179408,25,25
+Age 18–61,Gradient boosting,weighted_mae,-0.2366021611,-0.3252311785,-0.1479731436,25,25
+Age 62+,Linear,weighted_r2,0.0361871311,0.0175565089,0.0548177533,25,25
+Age 62+,Linear,weighted_rmse,-0.3412117864,-0.5165378034,-0.1658857693,25,25
+Age 62+,Linear,weighted_mae,-0.2915099114,-0.4318953202,-0.1511245027,25,25
+Age 62+,Gradient boosting,weighted_r2,0.0344243373,0.0169876422,0.0518610325,25,24
+Age 62+,Gradient boosting,weighted_rmse,-0.3244417447,-0.4894216362,-0.1594618533,25,24
+Age 62+,Gradient boosting,weighted_mae,-0.3211855318,-0.4443632199,-0.1980078436,25,25

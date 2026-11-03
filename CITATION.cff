@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Self-Discipline, Impulsivity, Planning Horizon, and Financial Well-Being: Evidence from the 2016 CFPB Survey"
+authors:
+  - family-names: Gan
+    given-names: Lena
+    orcid: "https://orcid.org/0009-0008-4032-4460"
+  - family-names: Kay
+    given-names: Sara
+year: 2026
+repository-code: "https://github.com/household-finance-lab/project-04"

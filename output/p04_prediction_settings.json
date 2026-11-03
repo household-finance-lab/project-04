@@ -1,0 +1,84 @@
+{
+  "python": "3.13.5",
+  "pandas": "2.2.3",
+  "numpy": "2.3.5",
+  "scikit_learn": "1.8.0",
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "folds_per_repeat": 5,
+  "train_weights": "finalwt",
+  "test_metric": "weighted R2 (sklearn r2_score, sample_weight=finalwt), weighted RMSE, weighted MAE per held-out fold",
+  "gain_interval": "Set 3 minus Set 2, approximate sensitivity interval: corrected resampled t (Nadeau and Bengio, 2003)",
+  "preprocessing": "OneHotEncoder(handle_unknown=ignore) fit on training fold only; StandardScaler numeric fitted on training fold only",
+  "gb_settings": {
+    "max_iter": 150,
+    "learning_rate": 0.05,
+    "max_leaf_nodes": 15,
+    "min_samples_leaf": 20,
+    "l2_regularization": 1.0,
+    "early_stopping": false,
+    "random_state": 42
+  },
+  "feature_sets": {
+    "Set 1": [
+      [
+        "agecat",
+        "educ",
+        "ethnicity",
+        "marital",
+        "female"
+      ],
+      []
+    ],
+    "Set 2": [
+      [
+        "agecat",
+        "educ",
+        "ethnicity",
+        "marital",
+        "female",
+        "inc",
+        "sav",
+        "collect4",
+        "rejected",
+        "housing",
+        "employ"
+      ],
+      [
+        "hardship5",
+        "nprod",
+        "kh"
+      ]
+    ],
+    "Set 3": [
+      [
+        "agecat",
+        "educ",
+        "ethnicity",
+        "marital",
+        "female",
+        "inc",
+        "sav",
+        "collect4",
+        "rejected",
+        "housing",
+        "employ",
+        "horizon"
+      ],
+      [
+        "hardship5",
+        "nprod",
+        "kh",
+        "selfdisc",
+        "impulsive"
+      ]
+    ]
+  },
+  "permutation_importance": "Descriptive, held-out fold 1 of each repeat, 3 shuffles, weighted R2; correlated features share information",
+  "cohort_note": "Separate within-age-group cross-validation, not validation of full-sample model in subgroups"
+}
