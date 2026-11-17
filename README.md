@@ -32,7 +32,7 @@ A little. Among U.S. adults in similar reported financial circumstances, each sc
 
 - **We guessed wrong on the future.** E1 expected self-discipline to matter more for present well-being. It had the larger association with future well-being (0.30 versus 0.21 standard deviations).
 - **The self-control items were split.** The survey's three items did not behave as one scale, so two form self-discipline and the third is treated as impulsivity. E2, comparing the two, was added after reading Netemeyer et al. (2018).
-- **An external review changed the reporting.** It corrected the standard-error description and added the excluded-case comparison, the horizon contrasts, item-level results, multiple-imputation checks, and prediction intervals. The full list is in [`DESIGN.md`](DESIGN.md), Section 8.
+- **A methods review by Lena Gan changed the reporting.** It corrected the standard-error description and added the excluded-case comparison, the horizon contrasts, item-level results, multiple-imputation checks, and prediction intervals. The full list is in [`DESIGN.md`](DESIGN.md), Section 8.
 - **Who was excluded matters.** The 175 respondents dropped for refusing an item are poorer and more often non-White. Imputing their answers leaves the estimates essentially unchanged (3.19 versus 3.15), but the findings may describe them less well.
 
 ## What's here

@@ -5,7 +5,7 @@ Requires pandas, numpy, scikit-learn. Run from repository root.
 Five shuffled KFold repeats with seeds 0..4, shared across feature sets and models.
 Weighted R2 is computed separately on each held-out fold using its own weighted mean.
 
-Revised after external review:
+Revised after methods review (Lena Gan):
 - Weighted RMSE and MAE are reported alongside weighted R2.
 - Paired differences between nested feature sets (Set 3 minus Set 2) are
   reported with a corrected resampled t interval (Nadeau and Bengio, 2003).
