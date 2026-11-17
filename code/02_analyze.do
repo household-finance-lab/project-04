@@ -9,7 +9,7 @@
 *         logs/02_analyze.log
 * Stata:  StataNow 19.5
 *
-* Revised after external review: A5 excluded-case profile, B trend and
+* Revised after methods review (Lena Gan): A5 excluded-case profile, B trend and
 * adjacent-category contrasts for horizon, B items table, R9 relabeled,
 * R11 multiple imputation. These additions are post-review and are
 * labeled as such in DESIGN.md, Section 8.

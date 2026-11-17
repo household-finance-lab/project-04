@@ -1,6 +1,6 @@
 # Analytical Decisions
 
-Every judgment call in this project, the alternative, and what changed when the alternative was run. Decisions marked † were finalized after preliminary runs; decisions marked ‡ were added after an external review (DESIGN.md, Section 8).
+Every judgment call in this project, the alternative, and what changed when the alternative was run. Decisions marked † were finalized after preliminary runs; decisions marked ‡ were added after a methods review by Lena Gan (DESIGN.md, Section 8).
 
 ## Sample
 

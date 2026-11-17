@@ -179,7 +179,7 @@ Independently reproduced in Stata and Python.
 4. E2 was added after reading Netemeyer et al. (2018).
 5. The control block is named "reported financial circumstances" rather than "objective circumstances," and the research question wording was updated to match. The variables are unchanged.
 6. Measurement checks (Section 5.2), the joint test for E1 and E2, and robustness checks R9 and R10 were added.
-7. After an external review: the standard-error description was corrected; the excluded-case comparison, horizon contrasts and plot, item-level results in the main table, R11 and R11b, and prediction RMSE, MAE, and approximate intervals were added; R9 was relabeled a sensitivity analysis; and the title was made descriptive.
+7. After a methods review by Lena Gan: the standard-error description was corrected; the excluded-case comparison, horizon contrasts and plot, item-level results in the main table, R11 and R11b, and prediction RMSE, MAE, and approximate intervals were added; R9 was relabeled a sensitivity analysis; and the title was made descriptive.
 
 None of these choices changed the direction or significance of the confirmatory results in preliminary runs. ANALYTICAL-DECISIONS.md reports each alternative.
 
